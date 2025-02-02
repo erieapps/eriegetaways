@@ -1,2 +1,0 @@
-# eriegetaways
-GitHub Pages
