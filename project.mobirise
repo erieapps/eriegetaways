@@ -1,0 +1,1723 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "retreatm5",
+      "title": "RetreatM5",
+      "styling": {
+        "primaryColor": "#77bbdf",
+        "secondaryColor": "#A47EE3",
+        "successColor": "#78EC80",
+        "infoColor": "#77BBDF",
+        "warningColor": "#FFF6B1",
+        "dangerColor": "#FFE40E",
+        "mainFont": "Anybody",
+        "display1Font": "Anybody",
+        "display1Size": 8.125,
+        "display2Font": "Anybody",
+        "display2Size": 5,
+        "display5Font": "Anybody",
+        "display5Size": 3.125,
+        "display7Font": "Anybody",
+        "display7Size": "1.63",
+        "display4Font": "Anybody",
+        "display4Size": "1.2",
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Outdoor Yoga Classes",
+      "nameSelectPreset": "outdoor-yoga-classes",
+      "presetSourceTheme": "retreatm5",
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "Erie Getaways | Vacation Rentals in Erie, PA",
+    "versionFirst": "5.8.4",
+    "siteFonts": [
+      {
+        "css": "'Anybody', display",
+        "name": "Anybody",
+        "url": "https://fonts.googleapis.com/css?family=Anybody:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "imageResize": true,
+    "chatbutton": {},
+    "favicon": "@PROJECT_PATH@/assets/images/home-1024.webp",
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-ZSJRBG6JZZ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-ZSJRBG6JZZ');\n</script>",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://www.eriegetaways.com",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "hwrukmsvit",
+    "usedWebp": false,
+    "robotsSwitcher": true,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false,
+    "mcSmartCart": {
+      "currency": "USD"
+    },
+    "uniqCompNum": 9,
+    "versionPublish": "5.9.25",
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "publishChangesOnly": true
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Erie Getaways - Erie's Best Vacation Rentals",
+        "meta_descr": "Looking for a perfect Lake Erie vacation rental or weekend getaway? Discover Lake Erie beaches with Erie Getaways! From cozy patios to theme homes, our rentals offer the best of Lake Erie's attractions and outdoor adventures. Book now and create memories that will last a lifetime!",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "70px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "#1d191f !important"
+              },
+              "&:hover span": {
+                "color": "white"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto",
+              "& when not (@collapsed)": {
+                "@media (min-width: 992px)": {
+                  "flex-wrap": "nowrap"
+                }
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "2px solid #dfdfd8",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                "border-bottom": "none !important"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "70px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "70px",
+                  "padding": "0"
+                }
+              },
+              "padding": "0 !important",
+              "border-radius": "0 !important"
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0 10px",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              },
+              "margin": "0 auto auto"
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .navbar-collapse .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor2 !important",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "26px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              "margin-left": "auto",
+              "margin-right": "12px",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "25px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              },
+              ".hamburger-bg": {
+                "position": "absolute",
+                "top": "50%",
+                "left": "50%",
+                "transform": "translate(-50%, -50%)",
+                "width": "50px",
+                "height": "50px",
+                "border-radius": "50%",
+                "background-color": "@hamburgerBgColor",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-toggler-close": {
+              "position": "fixed",
+              "right": "20px",
+              "top": "20px",
+              "margin-right": "0 !important",
+              ".hamburger": {
+                "span": {
+                  "&:nth-child(1)": {
+                    "top": "8px",
+                    "width": "0",
+                    "opacity": "0",
+                    "right": "50%",
+                    "transition": "all 0.2s"
+                  },
+                  "&:nth-child(2)": {
+                    "transform": "rotate(45deg)",
+                    "transition": "all 0.25s"
+                  },
+                  "&:nth-child(3)": {
+                    "transform": "rotate(-45deg)",
+                    "transition": "all 0.25s"
+                  },
+                  "&:nth-child(4)": {
+                    "top": "8px",
+                    "width": "0",
+                    "opacity": "0",
+                    "right": "50%",
+                    "transition": "all 0.2s"
+                  }
+                }
+              },
+              ".hamburger-bg": {
+                "opacity": "0"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            ".sidebar-brand": {
+              "padding": "0 0 10px",
+              "margin": "0 auto 30px",
+              "& when (@showBrandBorder)": {
+                "border-bottom": "2px solid @brandBorderColor"
+              }
+            },
+            ".navbar-nav-main": {
+              "width": "40%",
+              "margin": "0",
+              ".nav-item": {
+                "margin": "0 !important",
+                ".nav-link": {
+                  "padding": "15px !important",
+                  "margin": "0 !important",
+                  "&:hover": {
+                    "color": "@primaryColor !important"
+                  }
+                }
+              }
+            },
+            ".navbar-nav-right": {
+              "justify-content": "flex-end"
+            },
+            ".mbr-section-btn": {
+              "margin": "0 -0.6rem",
+              "min-width": "auto"
+            },
+            ".navbar-toggler-open": {
+              "position": "relative",
+              "z-index": "10 !important"
+            },
+            ".navbar-toggler": {
+              "position": "relative",
+              "z-index": "12"
+            },
+            ".navbar-collapse": {
+              "display": "none !important",
+              "z-index": "11 !important"
+            },
+            "& when (@collapsed)": {
+              "min-height": "0",
+              "height": "0",
+              ".navbar, .navbar-short": {
+                "min-height": "0 !important",
+                "height": "0 !important",
+                "border": "none !important"
+              },
+              ".container, .container-fluid": {
+                "flex-wrap": "nowrap",
+                "top": "50px"
+              },
+              ".navbar-brand-main": {
+                "display": "none !important"
+              },
+              ".navbar-nav-main": {
+                "display": "none !important"
+              },
+              ".sidbar-nav": {
+                "width": "100%",
+                "align-items": "center",
+                ".nav-item": {
+                  "margin": "0 auto 15px !important",
+                  "padding": "5px 0 !important",
+                  "justify-content": "center",
+                  "text-align": "center",
+                  ".nav-link": {
+                    "justify-content": "flex-start",
+                    "text-align": "left",
+                    "width": "100%",
+                    "padding": "0 !important",
+                    "margin": "0 !important",
+                    "border-radius": "0",
+                    "&:hover": {
+                      "color": "@primaryColor !important"
+                    }
+                  }
+                }
+              },
+              ".icons-menu": {
+                "padding-right": "0 !important",
+                "padding-top": "20px !important",
+                "padding-bottom": "0 !important"
+              },
+              ".mbr-section-btn": {
+                "margin-top": "auto"
+              },
+              ".navbar-collapse": {
+                "display": "flex !important",
+                "flex-wrap": "nowrap",
+                "flex-direction": "column",
+                "justify-content": "flex-start !important",
+                "align-items": "stretch !important",
+                "position": "fixed",
+                "background-color": "@menuBgColor2",
+                "width": "0",
+                "height": "100%",
+                "top": "0",
+                "right": "0",
+                "max-height": "100vh !important",
+                "overflow": "auto",
+                "transition": ".3s !important"
+              },
+              ".navbar-collapse.show": {
+                "padding": "48px 40px 38px",
+                "position": "fixed",
+                "background-color": "@menuBgColor2",
+                "width": "420px",
+                "height": "100%",
+                "top": "0",
+                "right": "0",
+                "max-height": "100vh !important",
+                "overflow": "auto"
+              },
+              ".navbar.collapsed .dropdown-menu .dropdown-item": {
+                "text-align": "left"
+              }
+            },
+            "@media (max-width: 991px)": {
+              "min-height": "0",
+              "height": "0",
+              ".navbar, .navbar-short": {
+                "min-height": "0 !important",
+                "height": "0 !important",
+                "border": "none !important"
+              },
+              ".container, .container-fluid": {
+                "flex-wrap": "nowrap",
+                "top": "50px",
+                "max-width": "100% !important"
+              },
+              ".navbar-brand-main": {
+                "display": "none !important"
+              },
+              ".navbar-nav-main": {
+                "display": "none !important"
+              },
+              ".sidbar-nav": {
+                "width": "100%",
+                "align-items": "center",
+                ".nav-item": {
+                  "margin": "0 auto 15px !important",
+                  "padding": "5px 0 !important",
+                  "justify-content": "center",
+                  "text-align": "center",
+                  ".nav-link": {
+                    "justify-content": "flex-start",
+                    "text-align": "left",
+                    "width": "100%",
+                    "padding": "0 !important",
+                    "margin": "0 !important",
+                    "border-radius": "0",
+                    "&:hover": {
+                      "color": "@primaryColor !important"
+                    }
+                  }
+                }
+              },
+              ".icons-menu": {
+                "padding-right": "0 !important",
+                "padding-top": "20px !important",
+                "padding-bottom": "0 !important"
+              },
+              ".mbr-section-btn": {
+                "margin-top": "auto"
+              },
+              ".navbar-collapse": {
+                "display": "flex !important",
+                "flex-wrap": "nowrap",
+                "flex-direction": "column",
+                "justify-content": "flex-start !important",
+                "align-items": "stretch !important",
+                "position": "fixed",
+                "background-color": "@menuBgColor2",
+                "width": "0",
+                "height": "100%",
+                "top": "0",
+                "right": "0",
+                "max-height": "100vh !important",
+                "overflow": "auto",
+                "transition": ".3s !important"
+              },
+              ".navbar-collapse.show": {
+                "padding": "48px 40px 38px",
+                "position": "fixed",
+                "background-color": "@menuBgColor2",
+                "width": "420px",
+                "height": "100%",
+                "top": "0",
+                "right": "0",
+                "max-height": "100vh !important",
+                "overflow": "auto"
+              },
+              ".navbar.collapsed .dropdown-menu .dropdown-item": {
+                "text-align": "left"
+              }
+            },
+            "@media (max-width: 575px)": {
+              ".navbar-collapse.show": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "amenu1",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header condition=\"!collapsed\">Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" condition=\"!collapsed\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"4.8\" condition=\"showLogo && !collapsed\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" condition=\"!collapsed\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" condition=\"!collapsed\" checked>\n        <header>Sidebar</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showSideBrand\" checked>\n        <input type=\"checkbox\" title=\"Brand Border\" name=\"showBrandBorder\" checked condition=\"showSideBrand\">\n        <input type=\"color\" title=\"Brand Border Color\" name=\"brandBorderColor\" value=\"#646464\" condition=\"showSideBrand && showBrandBorder\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showSideItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n          <option value=\"1\">1</option>\n          <option value=\"2\">2</option>\n          <option value=\"3\" selected>3</option>\n          <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#646464\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color 1\" name=\"menuBgColor\" value=\"#fafaf6\">\n        <input type=\"color\" title=\"Color 2\" name=\"menuBgColor2\" value=\"#2B2B2B\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#FFFFFF\">\n        <input type=\"color\" title=\"Hamburger Bg\" name=\"hamburgerBgColor\" value=\"#77bbdf\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"container\">\n            <ul mbr-menu class=\"navbar-nav navbar-nav-main navbar-nav-left nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"erievacationrentals.html#agallery2-5\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOUSES</a></li></ul>\n\n            <div class=\"navbar-brand navbar-brand-main\" mbr-if=\"showLogo || showBrand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"erievacationrentals.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/home-1024.webp\" alt=\"Erie Getaways Home\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption navbar-caption-main text-black text-primary\" data-app-selector=\".navbar-caption-main\" href=\"erievacationrentals.html\" data-app-placeholder=\"Type Text\">Erie Getaways</a></span>\n            </div>\n\n            <ul mbr-menu class=\"navbar-nav navbar-nav-main navbar-nav-right nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"erievacationrentals.html#alist1-6\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>THINGS TO DO</a></li></ul>\n\n            <button class=\"navbar-toggler navbar-toggler-open\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger-bg\"></div>\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n\n\n\n            <div class=\"collapse navbar-collapse navbar-toggler-close\" id=\"navbarSupportedContent\">\n                <button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"true\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                    <div class=\"hamburger-bg\"></div>\n                    <div class=\"hamburger\">\n                        <span></span>\n                        <span></span>\n                        <span></span>\n                        <span></span>\n                    </div>\n                </button>\n                <div class=\"navbar-brand sidebar-brand\" mbr-if=\"showSideBrand\">\n                    <span mbr-if=\"showSideBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption navbar-caption-sidebar text-white align-center text-primary\" data-app-selector=\".navbar-caption-sidebar\" href=\"erievacationrentals.html#top\" data-app-placeholder=\"Type Text\">Erie Getaways</a></span>\n                </div>\n                <ul mbr-menu class=\"navbar-nav sidbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showSideItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"erievacationrentals.html#agallery2-5\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn\"></span>RENTALS</a></li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"erievacationrentals.html#alist1-6\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>THINGS TO DO</a></li>\n                    \n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"sms:+1-814-6024487\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-user mbr-iconfont mbr-iconfont-btn\"></span>CONTACT</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-white-outline\" href=\"https://www.airbnb.com/users/show/95430931\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-airbnb mbr-iconfont mbr-iconfont-btn\"></span>AIRBNB</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "t8Pd6ltnkS",
+          "_anchor": "amenu1-0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "overflow": "hidden",
+            ".container, .container-fluid": {
+              "position": "relative"
+            },
+            ".row": {
+              "justify-content": "left"
+            },
+            ".col-content": {
+              "position": "relative",
+              "z-index": "10"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#aad8f0"
+            },
+            ".mbr-text": {
+              "color": "#2B2B2B"
+            },
+            ".mbr-section-btn": {
+              ".btn-primary": {
+                "&:hover": {
+                  "background-color": "#cecec1 !important",
+                  "color": "#2b2b2b !important"
+                }
+              }
+            },
+            ".circle-blur": {
+              "position": "absolute",
+              "transform": "translate(50%, -50%)",
+              "display": "block",
+              "width": "320px",
+              "height": "320px",
+              "-webkit-box-pack": "center",
+              "-webkit-justify-content": "center",
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "-webkit-align-self": "center",
+              "-ms-grid-row-align": "center",
+              "align-self": "center",
+              "border-radius": "500px",
+              "opacity": ".97",
+              "-webkit-filter": "blur(50px) blur(50px)",
+              "filter": "blur(50px) blur(50px)",
+              "@media (max-width: 991px)": {
+                "width": "240px",
+                "height": "240px"
+              }
+            },
+            ".circle-blur1": {
+              "top": "0",
+              "right": "70%",
+              "background-image": "linear-gradient(132deg, @circleColor1 27%, @circleColor1 50%, @circleColor1 79%)"
+            },
+            ".circle-blur2": {
+              "top": "30%",
+              "right": "50%",
+              "background-image": "linear-gradient(132deg, @circleColor2 27%, @circleColor2 50%, @circleColor2 79%)"
+            },
+            ".circle-blur3": {
+              "top": "50%",
+              "right": "10%",
+              "background-image": "linear-gradient(132deg, @circleColor3 27%, @circleColor3 50%, @circleColor3 79%)"
+            },
+            ".circle-blur4": {
+              "top": "75%",
+              "right": "25%",
+              "background-image": "linear-gradient(132deg, @circleColor4 27%, @circleColor4 50%, @circleColor4 79%)"
+            }
+          },
+          "_name": "aheader1",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Blurred Circle 1\" name=\"showBlurredCircle1\">\n        <input type=\"checkbox\" title=\"Blurred Circle 2\" name=\"showBlurredCircle2\">\n        <input type=\"checkbox\" title=\"Blurred Circle 3\" name=\"showBlurredCircle3\">\n        <input type=\"checkbox\" title=\"Blurred Circle 4\" name=\"showBlurredCircle4\">\n        <input type=\"color\" name=\"circleColor1\" title=\"Circle Color 1\" value=\"#A47EE3\" condition=\"showBlurredCircle1\">\n        <input type=\"color\" name=\"circleColor2\" title=\"Circle Color 2\" value=\"#5F6AD4\" condition=\"showBlurredCircle2\">\n        <input type=\"color\" name=\"circleColor3\" title=\"Circle Color 3\" value=\"#FFF182\" condition=\"showBlurredCircle3\">\n        <input type=\"color\" name=\"circleColor4\" title=\"Circle Color 4\" value=\"#77BBDF\" condition=\"showBlurredCircle4\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/dji-29-2000x1500.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#efefec\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#2b2b2b\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"circle-blur circle-blur1\" mbr-if=\"showBlurredCircle1\"></div>\n        <div class=\"circle-blur circle-blur2\" mbr-if=\"showBlurredCircle2\"></div>\n        <div class=\"circle-blur circle-blur3\" mbr-if=\"showBlurredCircle3\"></div>\n        <div class=\"circle-blur circle-blur4\" mbr-if=\"showBlurredCircle4\"></div>\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}} col-content\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3 align-center\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Erie Vacation Rentals</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 align-center\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Book your unforgettable stay with us today!</h2>\n                <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3 align-center\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn more</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t8Pd7peBUI",
+          "_anchor": "aheader1-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".col-title": {
+              "position": "relative",
+              "z-index": "10",
+              "margin-bottom": "60px",
+              "@media (max-width: 767px)": {
+                "margin-bottom": "40px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#2B2B2B"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#5F6AD4",
+              "margin-top": "24px",
+              "@media (max-width: 767px)": {
+                "margin-top": "16px"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "10px",
+              ".btn": {
+                "padding": "5px 35px !important",
+                "min-width": "max-content !important"
+              }
+            },
+            ".col-card": {
+              "margin-bottom": "40px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "60px"
+              }
+            },
+            ".card-wrap": {
+              "border-radius": "0"
+            },
+            ".content-wrap": {
+              "width": "100%",
+              "margin-top": "20px"
+            },
+            ".card-title": {
+              "color": "#2B2B2B"
+            },
+            ".mbr-text": {
+              "color": "#646464",
+              "margin-top": "8px"
+            },
+            ".image-wrap": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "width": "100%",
+              "border-radius": "25px",
+              "overflow": "hidden",
+              "transition": ".3s all",
+              "img": {
+                "height": "(100px * @imageHeight)",
+                "width": "100%",
+                "max-width": "100%",
+                "object-fit": "cover",
+                "@media (max-width: 1199px)": {
+                  "height": "(82px * @imageHeight)"
+                },
+                "@media (max-width: 991px)": {
+                  "height": "(56px * @imageHeight)"
+                },
+                "@media (max-width: 767px)": {
+                  "height": "auto !important",
+                  "max-height": "400px"
+                }
+              }
+            },
+            "overflow": "hidden",
+            ".container, .container-fluid": {
+              "position": "relative"
+            },
+            ".circle-blur": {
+              "position": "absolute",
+              "transform": "translate(50%, -50%)",
+              "display": "block",
+              "width": "200px",
+              "height": "200px",
+              "-webkit-box-pack": "center",
+              "-webkit-justify-content": "center",
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "-webkit-align-self": "center",
+              "-ms-grid-row-align": "center",
+              "align-self": "center",
+              "border-radius": "500px",
+              "opacity": ".97",
+              "-webkit-filter": "blur(50px) blur(50px)",
+              "filter": "blur(50px) blur(50px)",
+              "@media (max-width: 767px)": {
+                "width": "200px",
+                "height": "200px"
+              }
+            },
+            ".circle-blur1": {
+              "top": "0",
+              "right": "50%",
+              "background-image": "linear-gradient(132deg, @circleColor1 27%, @circleColor1 50%, @circleColor1 79%)"
+            },
+            ".circle-blur2": {
+              "top": "12%",
+              "right": "40%",
+              "background-image": "linear-gradient(132deg, @circleColor2 27%, @circleColor2 50%, @circleColor2 79%)"
+            },
+            ".card-title, .mbr-section-btn": {
+              "color": "#000000"
+            }
+          },
+          "_name": "agallery2",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"gallery2\" group=\"Gallery & Slider\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input inline type=\"range\" title=\"Image Height\" name=\"imageHeight\" min=\"1\" max=\"6\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Blurred Circle 1\" name=\"showBlurredCircle1\">\n        <input type=\"checkbox\" title=\"Blurred Circle 2\" name=\"showBlurredCircle2\">\n        <input type=\"color\" name=\"circleColor1\" title=\"Circle Color 1\" value=\"#FFF182\" condition=\"showBlurredCircle1\">\n        <input type=\"color\" name=\"circleColor2\" title=\"Circle Color 2\" value=\"#77BBDF\" condition=\"showBlurredCircle2\">\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\">\n        <input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainSubtitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showCardButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#dfdfd8\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@THEME_PATH@/components/_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefec\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"circle-blur circle-blur1\" mbr-if=\"showBlurredCircle1\"></div>\n        <div class=\"circle-blur circle-blur2\" mbr-if=\"showBlurredCircle2\"></div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-title\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\">\n                    Programs and <i>events</i>\n                </h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    Eget est lorem ipsum dolor sit amet.\n                </h5>\n            </div>\n        </div>\n\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-6 col-card item features-image active\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/15082261?guests=1&adults=1&s=67&unique_share_id=76bd59f6-2c61-4578-93e0-351e437133b5\"><img src=\"@PROJECT_PATH@/assets/images/coorporate-guest.webp\" alt=\"Corporate Guest House Kitchen\" data-slide-to=\"0\" data-bs-slide-to=\"0\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\">Corporate Guest House<br>-1/4 Mile to Presque Isle</h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Enjoy a memorable vacation or business trip in this fully furnished 2 bed 1 bath, house. All one level with a queen bed, and 2 single beds in 2nd bedroom. Accommodates 4 guests. Also features a garage.</h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/15082261?guests=1&adults=1&s=67&unique_share_id=76bd59f6-2c61-4578-93e0-351e437133b5\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div><div class=\"col-12 col-md-6 col-card item features-image\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/26950565?guests=1&adults=1&s=67&unique_share_id=446beb74-3743-42c0-99eb-51959d72809c\"><img src=\"@PROJECT_PATH@/assets/images/pinesweet-1.webp\" alt=\"Pineapple Sweet! 1/2 mile to Presque Isle\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\">Pineapple Sweet!<div>-1/2 mile to Presque Isle</div></h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Fully remodeled home. Close to everything including beach, casino, and mall. Great neighborhood. Quiet, safe and friendly. 3 steps to get in to this super cute one level home. Dishwasher, coffee maker, washer/dryer on site. Gas grill and great fenced in back yard. Off street parking.</h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/26950565?guests=1&adults=1&s=67&unique_share_id=446beb74-3743-42c0-99eb-51959d72809c\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 col-card item features-image\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/23645605?guests=1&adults=1&s=67&unique_share_id=95b1edfb-fa83-4c7c-9b53-4702d1c82be7\"><img src=\"@PROJECT_PATH@/assets/images/summersuite.webp\" alt=\"Summer Suite 1 mile to Presque Isle\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\">Summer Suite<br>-1 Mile to Beach</h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Enjoy a relaxing vacation near Presque Isle state park, Waldameer and Presque Isle beaches plus so much more. Newly remodeled, all new appliances, actually everything is new. Great patio with privacy fence. Located near grocery stores, gas stations, Presque isle, restaurants and bars.</h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/23645605?guests=1&adults=1&s=67&unique_share_id=95b1edfb-fa83-4c7c-9b53-4702d1c82be7\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div><div class=\"col-12 col-md-6 col-card item features-image\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/49159010?guests=1&adults=1&s=67&unique_share_id=c523efe3-038d-467d-b9ee-42b03bb7f977\"><img src=\"@PROJECT_PATH@/assets/images/sunflower-1.webp\" alt=\"Sunflower Cottage Beach Rental in Erie\" data-slide-to=\"3\" data-bs-slide-to=\"3\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\">Sunflower Cottage<div>-1 Mile to Beach</div></h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Sunflower Cottage is a small newly remodeled rough cut themed getaway. Only 1 mile to Presque Isle state park, Waldameer and beaches. Convenient location to restaurants, unique shops, cafes, fishing, boating and site seeing. This listing has an open loft for the 3rd bedroom.</h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/49159010?guests=1&adults=1&s=67&unique_share_id=c523efe3-038d-467d-b9ee-42b03bb7f977\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div><div class=\"col-12 col-md-6 col-card item features-image\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/54207991?guests=1&adults=1&s=67&unique_share_id=c2efc3cb-563f-492f-a679-9aea6c4a6c8f\"><img src=\"@PROJECT_PATH@/assets/images/beachbound-1.webp\" alt=\"Beach Bound Kitchen Inside Erie Rental Home\" data-slide-to=\"4\" data-bs-slide-to=\"4\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><div>Beach Bound</div><div>-2 Miles to Beach</div></h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Super cute family friendly vacation home. 3 bedrooms. 2 baths. <br><br>Newly remodeled. Fun games, 2 miles to beaches on Presque Isle State Park.\n<div>Fenced in patio and pet area.</div></h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/54207991?guests=1&adults=1&s=67&unique_share_id=c2efc3cb-563f-492f-a679-9aea6c4a6c8f\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div><div class=\"col-12 col-md-6 col-card item features-image\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/44240574?guests=1&adults=1&s=67&unique_share_id=656ef88c-a897-4701-9312-9449f51e5a73\"><img src=\"@PROJECT_PATH@/assets/images/summerhouse-1.webp\" alt=\"Summerhouse House Rental in Erie PA\" data-slide-to=\"5\" data-bs-slide-to=\"5\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><div>Summerhouse</div><div>-1/2 Mile to Beach</div></h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">This is a brand new listing. Fully remodeled house. All new amenities. Only half mile from Presque Isle state park. restaurants and shops within walking distance. Nice, safe and quiet neighborhood. Great backyard space with patio, fire-pit and picnic table. Off street parking. Central AC. Basement laundry. Pets permitted.</h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/44240574?guests=1&adults=1&s=67&unique_share_id=656ef88c-a897-4701-9312-9449f51e5a73\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div><div class=\"col-12 col-md-6 col-card item features-image\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/16897421?source_impression_id=p3_1694721005_9ZfEId%2BExYM1b1ZB\"><img src=\"@PROJECT_PATH@/assets/images/escape-1.webp\" alt=\"Erie Escape Vacation Rental in Erie - Patio Area\" data-slide-to=\"6\" data-bs-slide-to=\"6\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><div>Erie Escape</div><div><span style=\"font-size: 1.55rem;\">-1 Mile to Beach</span></div></h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Fully remodeled house. All new amenities. Only half mile from Presque Isle state park. restaurants and shops within walking distance. Nice, safe and quiet neighborhood. Great backyard space with patio, fire-pit and picnic table. Off street parking. Central AC. Basement laundry. Pets permitted.</h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/16897421?guests=1&adults=1&s=67&unique_share_id=c41e9c9e-ccf5-408c-baa1-0636db11c473\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div><div class=\"col-12 col-md-6 col-card item features-image\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/857475777571897526?source_impression_id=p3_1694717555_tBhNzAgDXpXwZn%2BF\"><img src=\"@PROJECT_PATH@/assets/images/wish-upon-a-lake-house-rental.webp\" alt=\"Wish Upon a Lake Rental Home in Erie PA\" data-slide-to=\"7\" data-bs-slide-to=\"7\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><div>Wish Upon a Lake</div><div>-<span style=\"font-size: 1.55rem;\">1 Mile to Beach</span></div></h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">New listing. Your family will be close to everything when you stay at this centrally-located place. Less than a mile from Presque Isle State Park  and Waldameer.  Many local restaurants, coffee shops, pubs and parks.</h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/857475777571897526?source_impression_id=p3_1694717555_tBhNzAgDXpXwZn%2BF\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div><div class=\"col-12 col-md-6 col-card item features-image\">\n                <div class=\"card-wrap item-wrapper\">\n                    <div class=\"image-wrap\">\n                        <a href=\"https://www.airbnb.com/rooms/729155890614562897?source_impression_id=p3_1694719491_yCUuoRu%2FDtc5U1H7\"><img src=\"@PROJECT_PATH@/assets/images/lake-love.webp\" alt=\"Lake Love - Rental Home in Erie PA\" data-slide-to=\"8\" data-bs-slide-to=\"8\"></a>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showTitle || showText || showCardButtons\">\n                        <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><div><span style=\"font-size: 1.63rem;\">Lake Love</span></div><div><span style=\"font-size: 1.63rem;\">-2</span><span style=\"font-size: 1.55rem;\">&nbsp;Miles to Beach</span><br></div></h5>\n                        <h6 class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Bring the whole family to this great spacious house with lots of room for fun. 2 miles to Presque Isle State Park  and Waldameer.  Close to restaurants, Bayfront, Splash Lagoon, and Millcreek mall.</h6>\n                        <div class=\"mbr-section-btn card-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showCardButtons\" mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://www.airbnb.com/rooms/729155890614562897?source_impression_id=p3_1694719491_yCUuoRu%2FDtc5U1H7\" data-app-placeholder=\"Type Text\">Check Availability</a></div>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "t8Pj2d23QP",
+          "_anchor": "agallery2-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".row": {
+              "justify-content": "left"
+            },
+            ".col-content": {
+              "padding": "0 !important",
+              "display": "flex",
+              "align-items": "stretch",
+              "flex-wrap": "wrap",
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".column-container": {
+              "display": "flex",
+              "flex-direction": "column",
+              "padding": "0 20px",
+              "& when (@cardsCount = '1')": {
+                "width": "100% !important"
+              },
+              "@media (max-width: 1199px)": {
+                "width": "100% !important"
+              }
+            },
+            ".content-container": {
+              "flex-grow": "1",
+              "display": "flex",
+              "flex-direction": "column",
+              "width": "100%",
+              "border-radius": "25px",
+              "overflow": "hidden",
+              "padding": "40px",
+              "background-color": "@contentColor",
+              "border": "2px solid @borderColor",
+              "position": "relative",
+              "@media (max-width: 991px)": {
+                "flex-wrap": "wrap",
+                "padding": "30px"
+              }
+            },
+            ".content-container2": {
+              "@media (max-width: 1199px)": {
+                "margin-top": "40px"
+              }
+            },
+            ".content-container3": {
+              "margin-top": "40px"
+            },
+            ".title-container": {
+              "margin-bottom": "40px"
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "width": "100%",
+              "@media (max-width: 991px)": {
+                "text-align": "center !important"
+              },
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#2B2B2B",
+              "width": "100%",
+              "margin-top": "20px",
+              "@media (max-width: 991px)": {
+                "text-align": "center !important"
+              }
+            },
+            ".items-container": {
+              "width": "100%"
+            },
+            ".content-item": {
+              "display": "flex",
+              "align-items": "flex-start",
+              "&:not(:first-child)": {
+                "margin-top": "20px"
+              }
+            },
+            ".item-number": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "45px",
+              "height": "45px",
+              "color": "@numberColor",
+              "border": "2px solid @borderColor",
+              "border-radius": "50%",
+              "margin-right": "20px",
+              "font-size": "25px",
+              "flex-shrink": "0",
+              "@media (max-width: 1199px)": {
+                "width": "40px",
+                "height": "40px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#2A2A2A",
+              "flex-grow": "1",
+              "text-align": "center"
+            },
+            ".mbr-phone": {
+              "color": "#2A2A2A",
+              "flex-grow": "1"
+            },
+            ".comment-text": {
+              "width": "100%",
+              "color": "#5F6AD4",
+              "margin-top": "24px",
+              "& when (@showNumber)": {
+                "padding-left": "65px"
+              },
+              "@media (max-width: 1199px)": {
+                "& when (@showNumber)": {
+                  "padding-left": "60px"
+                }
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "padding": "7px",
+              "margin-right": "30px",
+              "background-color": "@IconBg",
+              "@media (max-width: 1199px)": {
+                "margin-right": "25px"
+              },
+              ".mbr-iconfont": {
+                "font-size": "20px",
+                "color": "@IconColor"
+              }
+            },
+            ".phone-text": {
+              "width": "100%",
+              "position": "relative",
+              "z-index": "11",
+              ".content-item": {
+                "align-items": "center"
+              }
+            },
+            ".circle-blur": {
+              "position": "absolute",
+              "top": "30%",
+              "left": "60%",
+              "bottom": "auto",
+              "display": "block",
+              "width": "50%",
+              "height": "100%",
+              "-webkit-box-pack": "center",
+              "-webkit-justify-content": "center",
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "-webkit-align-self": "center",
+              "-ms-grid-row-align": "center",
+              "align-self": "center",
+              "border-radius": "50%",
+              "background-image": "linear-gradient(-210deg, @circleColor1, @circleColor2)",
+              "opacity": ".9",
+              "-webkit-filter": "blur(30px) blur(30px)",
+              "filter": "blur(30px) blur(30px)",
+              "@media (max-width: 991px)": {
+                "display": "none !important"
+              }
+            }
+          },
+          "_name": "acontact1",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Blurred Circle\" name=\"showBlurredCircle\" checked condition=\"cardsCount>2\">\n        <input type=\"color\" name=\"circleColor1\" title=\"Circle Color 1\" value=\"#FFF182\" condition=\"showBlurredCircle &amp;&amp; cardsCount>2\">\n        <input type=\"color\" name=\"circleColor2\" title=\"Circle Color 2\" value=\"#77BBDF\" condition=\"showBlurredCircle &amp;&amp; cardsCount>2\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Comment\" name=\"showComment\">\n        <input type=\"checkbox\" title=\"Number\" name=\"showNumber\">\n        <input type=\"color\" name=\"numberColor\" title=\"Number Color\" value=\"#2A2A2A\" condition=\"showNumber\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked condition=\"cardsCount>2\">\n        <input type=\"color\" title=\"Icons Bg Color\" name=\"IconBg\" value=\"#5F6AD4\" condition=\"showIcon &amp;&amp; cardsCount>2\">\n        <input type=\"color\" title=\"Icons Color\" name=\"IconColor\" value=\"#FFFFFF\" condition=\"showIcon &amp;&amp; cardsCount>2\">\n        <input type=\"color\" name=\"contentColor\" title=\"Content Color\" value=\"#efefec\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border Color\" value=\"#dfdfd8\">\n        <select title=\"Cards Count\" name=\"cardsCount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <select title=\"Card 1 Count\" name=\"card1Count\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <select title=\"Card 2 Count\" name=\"card2Count\" condition=\"cardsCount>1\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <select title=\"Card 3 Count\" name=\"card3Count\" condition=\"cardsCount>2\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>q\n            <option value=\"5\">5</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dfdfd8\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefec\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-content\">\n                <div class=\"col-12 col-lg-6 column-container\">\n                    <div class=\"content-container content-container1\">\n                        <div class=\"title-container\" mbr-if=\"showTitle || showSubtitle\">\n                            <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                                Save on fees! Just click our # to text us and get started!</h1>\n                            <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\">\n                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.\n                            </h2>\n                        </div>\n                        <div class=\"items-container\">\n                            <div class=\"content-item\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    1\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\"><a href=\"sms:+1-814-6024487\" class=\"text-info\"><b>814-602-4487</b></a></p>\n                            </div>\n                            <div class=\"content-item\" mbr-if=\"card1Count >1\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    2\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    Nisi lacus sed viverra tellus. Sit amet tellus cras adipiscing. Integer eget aliquet\n                                    nibh praesent tristique magna sit amet purus.\n                                </p>\n                            </div>\n\n                            <div class=\"content-item\" mbr-if=\"card1Count >2\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    3\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    Pellentesque elit eget gravida cum sociis natoque penatibus et magnis.\n                                    Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tempus iaculis\n                                    urna id volutpat lacus.\n                                </p>\n                            </div>\n                            <div class=\"content-item\" mbr-if=\"card1Count >3\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    4\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    Et netus et malesuada fames ac turpis egestas. Nec sagittis aliquam malesuada\n                                    bibendum arcu. Sit amet commodo nulla facilisi nullam vehicula ipsum a.\n                                </p>\n                            </div>\n                            <div class=\"content-item\" mbr-if=\"card1Count >4\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    5\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    Ultricies leo integer malesuada nunc vel risus commodo viverra maecenas.\n                                    Quis lectus nulla at volutpat diam ut.\n                                </p>\n                            </div>\n                        </div>\n                        <p class=\"comment-text mbr-fonts-style mb-0\" data-app-selector=\".comment-text\" mbr-if=\"showComment\" mbr-theme-style=\"display-7\">\n                            Consequat ac felis donec et. Pellentesque elit eget gravida.\n                        </p>\n                    </div>\n                </div>\n\n                <div class=\"col-12 col-lg-6 column-container\" mbr-if=\"cardsCount>1\">\n                    <div class=\"content-container content-container2\" mbr-if=\"cardsCount>1\">\n                        <div class=\"title-container\" mbr-if=\"showTitle || showSubtitle\">\n                            <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                                Public transit\n                            </h1>\n                            <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\">\n                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.\n                            </h2>\n                        </div>\n                        <div class=\"items-container\">\n                            <div class=\"content-item\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    1\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    At volutpat diam ut venenatis tellus. Commodo sed egestas egestas fringilla\n                                    phasellus faucibus.\n                                </p>\n                            </div>\n                            <div class=\"content-item\" mbr-if=\"card2Count >1\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    2\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    Nisi lacus sed viverra tellus. Sit amet tellus cras adipiscing. Integer eget aliquet\n                                    nibh praesent tristique magna sit amet purus.\n                                </p>\n                            </div>\n\n                            <div class=\"content-item\" mbr-if=\"card2Count >2\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    3\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    Pellentesque elit eget gravida cum sociis natoque penatibus et magnis.\n                                    Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tempus iaculis\n                                    urna id volutpat lacus.\n                                </p>\n                            </div>\n                            <div class=\"content-item\" mbr-if=\"card2Count >3\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    4\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    Et netus et malesuada fames ac turpis egestas. Nec sagittis aliquam malesuada\n                                    bibendum arcu. Sit amet commodo nulla facilisi nullam vehicula ipsum a.\n                                </p>\n                            </div>\n                            <div class=\"content-item\" mbr-if=\"card2Count >4\">\n                                <div class=\"item-number\" mbr-if=\"showNumber\">\n                                    5\n                                </div>\n                                <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                                    Ultricies leo integer malesuada nunc vel risus commodo viverra maecenas.\n                                    Quis lectus nulla at volutpat diam ut.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"content-container content-container3\" mbr-if=\"cardsCount>2\">\n                        <div class=\"phone-text\">\n                            <div class=\"title-container\" mbr-if=\"showTitle || showSubtitle\">\n                                <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                                    Our phones\n                                </h1>\n                                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\">\n                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.\n                                </h2>\n                            </div>\n                            <div class=\"items-container\">\n                                <div class=\"content-item\">\n                                    <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n                                    </div>\n                                    <p class=\"mbr-phone mbr-fonts-style mb-0\" data-app-selector=\".mbr-phone\" mbr-theme-style=\"display-7\">\n                                        +1 (111) 111-11-11\n                                    </p>\n                                </div>\n                                <div class=\"content-item\" mbr-if=\"card3Count >1\">\n                                    <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n                                    </div>\n                                    <p class=\"mbr-phone mbr-fonts-style mb-0\" data-app-selector=\".mbr-phone\" mbr-theme-style=\"display-7\">\n                                        +2 (222) 222-22-22\n                                    </p>\n                                </div>\n\n                                <div class=\"content-item\" mbr-if=\"card3Count >2\">\n                                    <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n                                    </div>\n                                    <p class=\"mbr-phone mbr-fonts-style mb-0\" data-app-selector=\".mbr-phone\" mbr-theme-style=\"display-7\">\n                                        +3 (333) 333-33-33\n                                    </p>\n                                </div>\n                                <div class=\"content-item\" mbr-if=\"card3Count >3\">\n                                    <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n                                    </div>\n                                    <p class=\"mbr-phone mbr-fonts-style mb-0\" data-app-selector=\".mbr-phone\" mbr-theme-style=\"display-7\">\n                                        +4 (444) 444-44-44\n                                    </p>\n                                </div>\n                                <div class=\"content-item\" mbr-if=\"card3Count >4\">\n                                    <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n                                    </div>\n                                    <p class=\"mbr-phone mbr-fonts-style mb-0\" data-app-selector=\".mbr-phone\" mbr-theme-style=\"display-7\">\n                                        +5 (555) 555-55-55\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"circle-blur\" mbr-if=\"showBlurredCircle\"></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tPRkSeg25N",
+          "_anchor": "acontact1-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#77bbdf",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "margin-top": "24px",
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_name": "aarticle1",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article1\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/6367acc017fdac01a4683a7082439973-2000x1500.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#dfdfd8\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@THEME_PATH@/components/_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#646464\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-title\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>FIND THE PERFECT FIT</b></h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">CHOOSE FROM 10 UNIQUE LOCATIONS<div><br></div></h5>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t8Pn3TSLMG",
+          "_anchor": "aarticle1-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".col-title": {
+              "position": "relative",
+              "z-index": "10",
+              "margin-bottom": "60px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "40px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#2B2B2B",
+              "@media (max-width: 991px)": {
+                "text-align": "center !important"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#5F6AD4",
+              "margin-top": "24px",
+              "@media (max-width: 991px)": {
+                "margin-top": "16px",
+                "text-align": "center !important"
+              }
+            },
+            ".accordion-row": {
+              "@media (max-width: 1199px) and (min-width: 992px)": {
+                "margin": "0 -10px !important"
+              }
+            },
+            ".accordion-title-container": {
+              "display": "flex",
+              "align-items": "flex-start",
+              "margin-bottom": "30px",
+              "padding": "0 !important",
+              "@media (max-width: 991px)": {
+                "display": "none"
+              }
+            },
+            ".accordion-title": {
+              "padding": "0 20px",
+              "width": "50%",
+              "color": "#1171a4",
+              "@media (max-width: 1199px) and (min-width: 992px)": {
+                "padding": "0 10px"
+              }
+            },
+            ".panel-group": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "border": "none",
+              "padding": "0 !important"
+            },
+            ".card": {
+              "width": "50%",
+              "padding": "0 20px !important",
+              "@media (max-width: 1199px) and (min-width: 992px)": {
+                "padding": "0 10px !important"
+              },
+              "@media (max-width: 991px)": {
+                "width": "100%"
+              }
+            },
+            ".card-border": {
+              "height": "2px",
+              "width": "100%",
+              "background-color": "@borderColor",
+              "margin-top": "auto"
+            },
+            ".card-border-top": {
+              "margin": "0"
+            },
+            ".card-border-top2": {
+              "@media (max-width: 991px)": {
+                "display": "none"
+              }
+            },
+            ".mbr-iconfont": {
+              "font-size": "24px !important",
+              "font-family": "'Moririse2' !important",
+              "color": "@iconColor",
+              "margin-left": "1rem",
+              "padding": "8px",
+              "background-color": "@iconBgColor",
+              "transition": "all ease-in-out 0.3s",
+              "border-radius": "50%"
+            },
+            ".card-header": {
+              "border-bottom": "none !important",
+              "padding": "15px 0 !important",
+              "&:hover": {
+                ".mbr-iconfont": {
+                  "background-color": "#cecec1 !important"
+                }
+              },
+              ".panel-title[aria-expanded=\"true\"]": {
+                ".mbr-iconfont": {
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            ".panel-body": {
+              "padding-bottom": "20px"
+            },
+            ".panel-text": {
+              "margin-bottom": "20px !important",
+              "color": "#646464"
+            },
+            ".panel-title": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".card .card-header": {
+              "background-color": "transparent",
+              "margin-bottom": "0"
+            },
+            ".panel-title-edit": {
+              "color": "#2B2B2B"
+            }
+          },
+          "_name": "alist1",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"list1\" group=\"List\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainSubtitle\">\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\" checked>\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\" selected>8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n        </select>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#FFFFFF\">\n        <input type=\"color\" title=\"Icon Bg Color\" name=\"iconBgColor\" value=\"#77bbdf\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#dfdfd8\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#efefec\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefec\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-title\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><i>What to do in Erie?</i></h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    Eget est lorem ipsum dolor sit amet.\n                </h5>\n            </div>\n        </div>\n        <div class=\"row justify-content-center accordion-row\">\n            <div class=\"accordion-title-container\" mbr-if=\"showCardTitle\">\n                <h5 class=\"accordion-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".accordion-title\">\n                    Visit</h5>\n                <h5 class=\"accordion-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".accordion-title\">\n                    To-Do\n                </h5>\n            </div>\n            <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                <div class=\"card\">\n                    <div class=\"card-border card-border-top\"></div>\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Beaches &amp; PI State Park</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><a href=\"https://www.dcnr.pa.gov/StateParks/FindAPark/PresqueIsleStatePark/Pages/default.aspx\" class=\"text-primary\">Presque Isle State Park</a> is a breathtaking gem nestled along the shores of Lake Erie, offering visitors a serene oasis where natural beauty and recreational opportunities abound. This majestic park spans over 3,200 acres of diverse landscapes, including sandy beaches, lush forests, and picturesque marshlands. As you explore the park, you'll be captivated by its scenic vistas, abundant wildlife, and tranquil atmosphere.<br><br>As Pennsylvania's only seashore, Presque Isle State Park boasts 13 miles of pristine sandy beaches, perfect for sunbathing, swimming, and picnicking. The park's clear blue waters and gentle waves provide a refreshing retreat for visitors of all ages. For those looking to stay active, the park offers a multitude of recreational activities, including hiking, biking, birdwatching, and fishing. Adventurers can navigate the park's extensive network of trails, which meander through diverse ecosystems and offer spectacular views of Lake Erie.<br><br>One of the park's most unique features is its status as a crucial migratory stopover for birds, making it a paradise for birdwatchers and nature enthusiasts alike. Over 300 species of birds have been spotted within the park, and the annual Festival of Birds celebrates this incredible diversity.<br><br>With its unparalleled natural beauty, rich biodiversity, and wide array of recreational activities, Presque Isle State Park is a must-visit destination for nature lovers and outdoor enthusiasts. Whether you're seeking relaxation, adventure, or an unforgettable family outing, you'll find it all at this enchanting lakeside haven.</p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n                <div class=\"card\" mbr-if=\"cardAmount > 1\">\n                    <div class=\"card-border card-border-top card-border-top2\"></div>\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Lake Erie Wine Trail</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><a href=\"https://www.lakeeriewinecountry.org/\" class=\"text-primary\">The Lake Erie Wine Trail</a> is a true gem located in the heart of Erie, Pennsylvania. This beautiful trail winds its way through picturesque vineyards and rolling hills, offering visitors a unique and unforgettable wine-tasting experience.<br><br>The trail features a variety of wineries, each with its own distinct personality and flavor. Visitors can sample a wide range of wines, from dry and crisp whites to rich and full-bodied reds, all while taking in the stunning views and lush surroundings.<br><br>One of the things that sets the Lake Erie Wine Trail apart is its commitment to quality and sustainability. Many of the wineries along the trail use organic or biodynamic farming practices, and all are dedicated to producing high-quality wines that reflect the unique character of the region.<br><br>Beyond the wine-tasting experience, the Lake Erie Wine Trail offers a range of activities and events throughout the year. Visitors can participate in guided tours, attend wine tastings and festivals, and enjoy live music and entertainment.<br><br>The trail also offers a welcoming and friendly atmosphere, with knowledgeable staff and winemakers who are passionate about their craft and eager to share their knowledge and expertise with visitors.<br><br>Overall, the Lake Erie Wine Trail is a must-visit destination for anyone who appreciates good wine, beautiful scenery, and a warm and welcoming atmosphere. With its exceptional wines, stunning views, and commitment to sustainability, this trail is truly a hidden gem in the heart of Pennsylvania.</p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n                <div class=\"card\" mbr-if=\"cardAmount > 2\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Waldameer Amusement Park</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><a href=\"https://waldameer.com/\" class=\"text-primary\">Waldameer</a>, located in the charming city of Erie, Pennsylvania, is an exciting and fun-filled amusement park that offers something for everyone. With its thrilling rides, exciting attractions, and picturesque setting, Waldameer is a must-visit destination for families, thrill-seekers, and anyone looking for a good time.<br><br>The park features a wide range of rides, from classic wooden roller coasters to modern-day thrill rides that will have you screaming with delight. There are also plenty of attractions for those who prefer a more relaxed pace, including a water park, kiddie rides, and family-friendly games and activities.<br><br>Beyond its rides and attractions, Waldameer also offers a welcoming and friendly atmosphere that makes visitors feel right at home. The park's staff is attentive, helpful, and always willing to go the extra mile to ensure that guests have an unforgettable experience.<br><br>One of the things that sets Waldameer apart is its stunning location. The park is situated on the shores of Lake Erie, offering breathtaking views and a refreshing breeze that adds to the overall experience. Visitors can take a break from the rides and enjoy a picnic by the water, or simply soak up the beauty of the surroundings.<br><br>Overall, Waldameer is a fantastic amusement park that combines excitement, adventure, and relaxation in a unique and memorable way. Whether you're a first-time visitor or a seasoned veteran, this park is sure to leave you with lasting memories and a desire to come back for more.</p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n                <div class=\"card\" mbr-if=\"cardAmount > 3\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Erie Seawolves Baseball</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Going to an <a href=\"https://www.milb.com/erie\" class=\"text-primary\">Erie Seawolves</a> baseball game is an experience that is sure to delight both sports enthusiasts and casual fans alike. Located in the vibrant city of Erie, Pennsylvania, this minor league baseball team offers an exciting and entertaining atmosphere that is perfect for a fun-filled day out with family and friends.<br><br>The Seawolves play their games at UPMC Park, a state-of-the-art stadium that features modern amenities and comfortable seating. The park offers great views of the field from every seat, allowing fans to get up close and personal with the action and cheer on their favorite players.<br><br>The Seawolves themselves are a talented and dynamic team, known for their exciting style of play and passionate fans. Watching them in action is a thrill, with every swing of the bat and every pitch bringing the crowd to its feet.<br><br>In addition to the exciting gameplay, the atmosphere at a Seawolves game is lively and engaging. The park is always filled with enthusiastic fans, creating a fun and festive atmosphere that is infectious and enjoyable.<br><br>The Seawolves also offer a range of activities and events that add to the overall experience. Fans can participate in fun games and activities, enjoy delicious food and drinks, and even get up close and personal with the players during meet-and-greet sessions.<br><br>Overall, going to an Erie Seawolves baseball game is a fantastic way to spend an afternoon or evening. With its exciting gameplay, lively atmosphere, and range of activities and events, this minor league baseball team offers a fun and memorable experience that is sure to delight fans of all ages.</p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n                <div class=\"card\" mbr-if=\"cardAmount > 4\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Presque Isle Downs &amp; Casino</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Experience the thrill and excitement of <a href=\"https://www.presqueisledowns.com/\" class=\"text-primary\">Presque Isle Downs and Casino</a>, a premier entertainment destination in Erie, Pennsylvania! Surrounded by the natural beauty of Lake Erie and Presque Isle State Park, this state-of-the-art facility offers guests an unforgettable getaway filled with adrenaline-pumping gaming, top-notch dining, and exhilarating live entertainment.<br><br>Step into the vibrant casino floor, where you'll find over 1,700 slot machines, video poker, and electronic table games, offering endless opportunities to test your luck and skill. Whether you're a casual player or a high roller, you'll be captivated by the energy and variety of gaming options at your fingertips. For those who prefer a more classic gaming experience, Presque Isle Downs and Casino also features over 30 live table games, including blackjack, craps, roulette, and poker, providing a heart-pounding atmosphere for both novices and seasoned players.<br><br>Equally thrilling is the live horse racing at the Presque Isle Downs racetrack. Witness the grace and power of Thoroughbred horses as they thunder down the track, and feel the anticipation build as you place your bets and cheer for your favorite contenders.<br><br>Beyond gaming and racing, the Presque Isle Downs and Casino offers a delectable array of dining options to satisfy any craving. Choose from fine dining experiences, casual eateries, and lively bars, each offering a unique ambiance and mouthwatering menu options. From succulent steaks to fresh seafood, there's something to please every palate.<br><br>Round off your visit with live entertainment, featuring renowned local and national acts. Dance the night away to your favorite tunes or enjoy a laugh with top comedians as they take the stage. Presque Isle Downs and Casino delivers an all-encompassing experience that will keep you coming back for more.<br><br>Whether you're a gaming enthusiast, a horse racing aficionado, or simply seeking an exciting escape, Presque Isle Downs and Casino promises an unforgettable visit. Don't miss the chance to indulge in this premier entertainment destination in the heart of Erie, Pennsylvania!</p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n                <div class=\"card\" mbr-if=\"cardAmount > 5\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Millcreek Mall</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Discover the ultimate shopping experience at <a href=\"https://www.millcreekmall.net/\" class=\"text-primary\">Millcreek Mall</a> in Erie, Pennsylvania! Nestled in the heart of the picturesque Great Lakes region, this vibrant shopping destination boasts an impressive mix of over 150 popular retailers, specialty stores, and enticing dining options. As you stroll through the mall's spacious, modern, and well-lit interiors, you'll be greeted by a warm and welcoming atmosphere that promises a truly delightful day out.<br><br>At Millcreek Mall, you'll find all your favorite brands, from top-notch fashion labels to must-have electronics, ensuring that you never leave empty-handed. Browse through the latest trends in clothing and accessories, or treat yourself to that perfect gadget you've had your eye on. The diverse range of shopping options caters to all ages and interests, making Millcreek Mall a beloved destination for families, friends, and solo shoppers alike.<br><br>When you need a break from retail therapy, indulge in the delicious dining options available throughout the mall. From quick bites and refreshing drinks to sit-down meals at popular restaurants, there's something to satisfy every palate. Whether you crave a piping hot slice of pizza or a refreshing smoothie, Millcreek Mall has it all.<br><br>With ample parking, convenient access to public transportation, and a host of nearby attractions, Millcreek Mall is the perfect hub for a memorable day out in Erie. The friendly and attentive staff are always on hand to assist with your needs and ensure your visit is as enjoyable as possible.<br><br>Come, explore, and be captivated by the charm of Millcreek Mall – your one-stop destination for shopping, dining, and entertainment in beautiful Erie, Pennsylvania.</p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n\n                <div class=\"card\" mbr-if=\"cardAmount > 6\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse7\" aria-expanded=\"false\" aria-controls=\"collapse7\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Tom Ridge Environmental Center</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse7\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Discover the wonders of nature and immerse yourself in the beauty of the outdoors at the <a href=\"https://www.dcnr.pa.gov/StateParks/FindAPark/PresqueIsleStatePark/TRECPI/Pages/TRECPI.aspx\" class=\"text-primary\">Tom Ridge Environmental Center</a>. Nestled in the picturesque shores of Lake Erie, this state-of-the-art facility offers a unique blend of interactive exhibits, stunning panoramic views, and unforgettable educational experiences.<br><br>Embark on a journey of discovery as you explore the center's 65,000 square feet of exhibit space, designed to inspire and delight visitors of all ages. Marvel at the diverse ecosystems of the region, showcased through captivating displays that illustrate the interconnectedness of life in and around Lake Erie. Learn about the rich history and natural resources of the area, and be inspired by the conservation efforts that protect this invaluable treasure for generations to come.<br><br>The Tom Ridge Environmental Center is a true haven for nature lovers and outdoor enthusiasts. With over 3,200 acres of pristine wilderness, the center is surrounded by lush forests, tranquil wetlands, and expansive meadows. Step outside and breathe in the fresh air as you hike along miles of well-maintained trails that offer stunning vistas and opportunities to observe local flora and fauna in their natural habitats. The trails cater to all skill levels, making this a perfect destination for families, groups, and solo adventurers.<br><br>In addition to the educational exhibits and scenic trails, the center offers a variety of engaging programs, workshops, and events throughout the year. With knowledgeable staff and expert naturalists on hand, you'll gain valuable insights into the delicate balance of our ecosystems, as well as tips on how to live more sustainably and harmoniously with nature.<br><br>So, whether you're an avid birdwatcher, a passionate hiker, or simply seeking a serene escape from the hustle and bustle of daily life, the Tom Ridge Environmental Center is the perfect destination to connect with nature and enrich your understanding of the world around you. Come and experience the magic of this ecological gem for yourself – a visit to the Tom Ridge Environmental Center is a memory you'll cherish for a lifetime.</p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n                <div class=\"card\" mbr-if=\"cardAmount > 7\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse8\" aria-expanded=\"false\" aria-controls=\"collapse8\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">\n                                <b>Fishing &amp; Outdoors</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse8\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Welcome to Erie, Pennsylvania, an angler's paradise nestled along the shimmering shores of Lake Erie! With its picturesque landscapes, diverse aquatic habitats, and rich fishing heritage, Erie offers an unparalleled angling experience that will leave you hooked and yearning for more.<br><br>A true haven for fishing enthusiasts, Erie boasts numerous prime fishing spots that cater to a wide range of techniques and preferences. Whether you're a seasoned pro or a budding angler, you'll find countless opportunities to cast your line and reel in an impressive catch. From the tranquil waters of Presque Isle Bay to the expansive depths of Lake Erie, the possibilities for a memorable fishing adventure are endless.<br><br>Erie's thriving fish population is as diverse as the angling opportunities it offers. Home to a myriad of fish species, including walleye, yellow perch, smallmouth bass, steelhead, and lake trout, the waters of Erie promise a thrilling challenge for anglers of all skill levels. Experience the excitement of reeling in a trophy-sized fish, or enjoy the simple pleasure of catching and releasing your prize.<br><br>Fishing in Erie is a year-round affair, with each season offering unique angling opportunities. In the warmer months, head out on a chartered fishing trip, exploring the vastness of Lake Erie and honing your skills under the guidance of experienced local captains. As the temperatures drop and ice fishing season begins, bundle up and venture onto the frozen waters for a truly unforgettable experience.<br><br>Beyond the thrill of the catch, Erie offers a vibrant fishing community that fosters camaraderie and shared passion. Engage with fellow anglers at local bait and tackle shops, where you'll find expert advice and a warm welcome. Participate in fishing tournaments, attend educational workshops, or simply swap stories with newfound friends as you create lasting memories.<br><br>Immerse yourself in the serene beauty of Erie's natural surroundings as you cast your line and feel the anticipation build with each nibble. Come, experience the magic of fishing in Erie, Pennsylvania, and discover why it's a beloved destination for anglers from near and far.</p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n                <div class=\"card\" mbr-if=\"cardAmount > 8\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse9\" aria-expanded=\"false\" aria-controls=\"collapse9\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\">\n                                <b>Tristique senectus</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse9\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                Diam sit amet nisl suscipit. Faucibus purus in massa tempor nec feugiat nisl.\n                                Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Ultrices mi\n                                tempus imperdiet nulla malesuada pellentesque elit eget.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n                <div class=\"card\" mbr-if=\"cardAmount > 9\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                        <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse10\" aria-expanded=\"false\" aria-controls=\"collapse10\">\n                            <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\">\n                                <b>Tristique senectus</b></h6>\n                            <span class=\"sign mbr-iconfont mobi-mbri-plus\"></span>\n                        </a>\n                    </div>\n                    <div id=\"collapse10\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                        <div class=\"panel-body\">\n                            <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                Diam sit amet nisl suscipit. Faucibus purus in massa tempor nec feugiat nisl.\n                                Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Ultrices mi\n                                tempus imperdiet nulla malesuada pellentesque elit eget.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"card-border\"></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tCdqkmo9sv",
+          "_anchor": "alist1-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".title-row": {
+              "position": "relative",
+              "z-index": "11",
+              "margin-bottom": "-20px",
+              "@media (max-width: 767px)": {
+                "margin-bottom": "20px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000",
+              "margin-top": "12px",
+              "text-align": "center"
+            },
+            ".img-container": {
+              "position": "relative",
+              "z-index": "10",
+              "margin": "0 auto"
+            },
+            ".image-wrapper": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "100%",
+              "overflow": "hidden",
+              "border-radius": "25px",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "contain"
+              }
+            },
+            ".img-row": {
+              "position": "relative"
+            },
+            ".circle-blur": {
+              "position": "absolute",
+              "display": "block",
+              "width": "300px",
+              "height": "300px",
+              "-webkit-box-pack": "center",
+              "-webkit-justify-content": "center",
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "-webkit-align-self": "center",
+              "-ms-grid-row-align": "center",
+              "align-self": "center",
+              "border-radius": "500px",
+              "opacity": ".9",
+              "-webkit-filter": "blur(50px) blur(50px)",
+              "filter": "blur(50px) blur(50px)",
+              "@media (max-width: 767px)": {
+                "width": "200px",
+                "height": "200px"
+              }
+            },
+            ".circle-blur1": {
+              "top": "0",
+              "left": "40%",
+              "background-image": "linear-gradient(132deg, @circleColor1 27%, @circleColor1 50%, @circleColor1 79%)"
+            },
+            ".circle-blur2": {
+              "bottom": "0",
+              "right": "10%",
+              "background-image": "linear-gradient(132deg, @circleColor2 27%, @circleColor2 50%, @circleColor2 79%)"
+            }
+          },
+          "_name": "aimage2",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image2\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Blurred Circle 1\" name=\"showBlurredCircle1\" checked>\n        <input type=\"checkbox\" title=\"Blurred Circle 2\" name=\"showBlurredCircle2\" checked>\n        <input type=\"color\" name=\"circleColor1\" title=\"Circle Color 1\" value=\"#77BBDF\" condition=\"showBlurredCircle1\">\n        <input type=\"color\" name=\"circleColor2\" title=\"Circle Color 2\" value=\"#77bbdf\" condition=\"showBlurredCircle2\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/dji-311-2000x1500.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#efefec\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefec\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row title-row\">\n            <div class=\"col-12 col-title\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>Take me to the beach...<br></b><br></h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">At Erie Vacation Rentals, we offer a wide selection of premium properties, perfect for any group size or budget. Each rental is designed to make your stay in Erie, PA, as comfortable and enjoyable as possible.</h5>\n            </div>\n        </div>\n        <div class=\"row img-row\">\n            <div class=\"circle-blur circle-blur1\" mbr-if=\"showBlurredCircle1\"></div>\n            <div class=\"circle-blur circle-blur2\" mbr-if=\"showBlurredCircle2\"></div>\n            <div class=\"img-container col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/mbr-1119x1124.png\" alt=\"Compass Image\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tCd43mzSHV",
+          "_anchor": "aimage2-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".row": {
+              "position": "relative",
+              "z-index": "10"
+            },
+            ".col-title": {
+              "display": "flex",
+              "align-items": "flex-start",
+              "margin-bottom": "60px",
+              "@media (max-width: 991px)": {
+                "flex-wrap": "wrap",
+                "margin-bottom": "40px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "width": "65%",
+              "flex-grow": "1",
+              "@media (max-width: 991px)": {
+                "width": "100%",
+                "text-align": "center !important"
+              },
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000",
+              "padding-left": "40px",
+              "width": "35%",
+              "margin-left": "auto",
+              "@media (max-width: 991px)": {
+                "width": "100%",
+                "text-align": "center !important",
+                "padding-left": "0",
+                "margin-left": "0",
+                "margin-top": "20px"
+              }
+            },
+            ".google-map": {
+              "height": "350px",
+              "position": "relative",
+              "padding": "0 20px",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                }
+              }
+            },
+            ".col-text": {
+              "display": "flex",
+              "align-items": "flex-start",
+              "margin-top": "40px",
+              "@media (max-width: 991px)": {
+                "flex-wrap": "wrap",
+                "margin-top": "30px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#2B2B2B",
+              "width": "50%",
+              "margin-right": "auto",
+              "padding-right": "40px",
+              "@media (max-width: 991px)": {
+                "width": "100%",
+                "padding-right": "0",
+                "margin-right": "0"
+              },
+              "text-align": "center"
+            },
+            ".mbr-place": {
+              "color": "#2B2B2B",
+              "width": "50%",
+              "margin-left": "auto",
+              "@media (max-width: 991px)": {
+                "width": "100%",
+                "margin-left": "0",
+                "margin-top": "24px"
+              },
+              "text-align": "center"
+            },
+            "overflow": "hidden",
+            ".container, .container-fluid": {
+              "position": "relative"
+            },
+            ".circle-blur": {
+              "position": "absolute",
+              "transform": "translate(50%, -50%)",
+              "display": "block",
+              "width": "200px",
+              "height": "200px",
+              "-webkit-box-pack": "center",
+              "-webkit-justify-content": "center",
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "-webkit-align-self": "center",
+              "-ms-grid-row-align": "center",
+              "align-self": "center",
+              "border-radius": "500px",
+              "opacity": ".97",
+              "-webkit-filter": "blur(50px) blur(50px)",
+              "filter": "blur(50px) blur(50px)",
+              "@media (max-width: 767px)": {
+                "width": "200px",
+                "height": "200px"
+              }
+            },
+            ".circle-blur1": {
+              "top": "10%",
+              "right": "50%",
+              "background-image": "linear-gradient(132deg, @circleColor1 27%, @circleColor1 50%, @circleColor1 79%)"
+            },
+            ".circle-blur2": {
+              "top": "13%",
+              "right": "40%",
+              "background-image": "linear-gradient(132deg, @circleColor2 27%, @circleColor2 50%, @circleColor2 79%)"
+            }
+          },
+          "_name": "amap1",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"map1\" group=\"Contacts\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Blurred Circle 1\" name=\"showBlurredCircle1\" checked>\n        <input type=\"checkbox\" title=\"Blurred Circle 2\" name=\"showBlurredCircle2\" checked>\n        <input type=\"color\" name=\"circleColor1\" title=\"Circle Color 1\" value=\"#dfdfd8\" condition=\"showBlurredCircle1\">\n        <input type=\"color\" name=\"circleColor2\" title=\"Circle Color 2\" value=\"#dfdfd8\" condition=\"showBlurredCircle2\">\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Place\" name=\"showPlace\" checked>\n        <header>Map</header>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47354.09293388386!2d-80.11214641427406!3d42.11537713124481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882d7fe13db2f71f%3A0x89f3ae2e121d5b0a!2sErie%2C%20PA!5e0!3m2!1sen!2sus!4v1689831498054!5m2!1sen!2sus&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47354.09293388386!2d-80.11214641427406!3d42.11537713124481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882d7fe13db2f71f%3A0x89f3ae2e121d5b0a!2sErie%2C%20PA!5e0!3m2!1sen!2sus!4v1689831498054!5m2!1sen!2sus&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#efefec\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefec\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"circle-blur circle-blur1\" mbr-if=\"showBlurredCircle1\"></div>\n        <div class=\"circle-blur circle-blur2\" mbr-if=\"showBlurredCircle2\"></div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-title\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style  mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b><i>\n                    How to get to Erie?\n                </i></b></h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style  mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    Eget est lorem ipsum dolor sit amet. Venenatis cras sed felis eget.\n                    Vestibulum sed arcu non.\n                </h5>\n            </div>\n            <div class=\"google-map\" mbr-map=\"googleMap\">\n            </div>\n            <div class=\"col-12 col-text\" mbr-if=\"showText || showPlace\">\n                <p class=\"mbr-text mbr-fonts-style  mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                    <b>\n                        contact@eriegetaways.com</b></p>\n                <h5 class=\"mbr-place mbr-fonts-style  mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showPlace\" data-app-selector=\".mbr-place\"><b><a href=\"tel:+1-814-6024487\" class=\"text-primary\">1.814.602.4487</a></b>\n                </h5>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tCdi9yPHyy",
+          "_anchor": "amap1-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden",
+            "& when (@showBorder)": {
+              "border-top": "2px solid @borderColor"
+            },
+            ".mbr-text": {
+              "color": "#efefec"
+            },
+            ".media-container-row .mbr-text": {
+              "text-align": "center"
+            }
+          },
+          "_name": "afooter2",
+          "_sourceTheme": "retreatm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#dfdfd8\" condition=\"showBorder\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#2A2A2A\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#2A2A2A\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2025 Erie Getaways - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>\n<section data-bs-version=\"5.1\" class=\"footer1 restaurantm4_footer1 cid-tCgcI8tUzp\" id=\"footer1-7\">\n\n\t\n\n\t\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t\n\t\t\t\n\t\t\t<div class=\"logo-section col-sm-12 col-lg-4 align-center\">\n\t\t\t\t<a href=\"https://erieapps.com\" class=\"L-Affiliate-Tagged\"><img src=\"@PROJECT_PATH@/assets/images/vectorlogo-text.svg\" height=\"128\" alt=\"Erie Apps\" style=\"height: 3.8rem;\" loading=\"lazy\" class=\"lazyload\" data-src=\"assets/images/vectorlogo-text.svg\"></a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "t8Pd8pLmAE",
+          "_anchor": "afooter2-2",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
