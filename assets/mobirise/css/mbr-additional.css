@@ -901,7 +901,7 @@ b {
 }
 @media (min-width: 992px) {
   .cid-t8Pd6ltnkS .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4.8rem);
+    max-height: calc(98.5vh - 3.2rem);
   }
 }
 .cid-t8Pd6ltnkS .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -923,7 +923,7 @@ b {
   margin: auto;
 }
 .cid-t8Pd6ltnkS .navbar.collapsed .dropdown-menu .dropdown-item {
-  padding: 0.25rem 1.5rem;
+  padding: 11.25rem 1.5rem;
   text-align: center;
 }
 .cid-t8Pd6ltnkS .navbar.collapsed .icons-menu {
@@ -1968,7 +1968,7 @@ b {
 }
 .cid-tCdi9yPHyy {
   padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
   background: #efefec;
   overflow: hidden;
 }
