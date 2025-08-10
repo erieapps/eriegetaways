@@ -921,7 +921,7 @@ b {
   height: 90px;
   padding: 0.5rem 0.6rem;
   flex-wrap: nowrap;
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: #ffffff !important;
   left: 0;
   right: 0;
   -webkit-box-pack: justify;
@@ -1307,8 +1307,8 @@ b {
     border-radius: 1.5rem;
     background: #ffffff;
     opacity: 1;
-    border-color: rgba(255, 255, 255, 0.8) !important;
-    background: rgba(255, 255, 255, 0.8) !important;
+    border-color: #ffffff !important;
+    background: #ffffff !important;
     backdrop-filter: blur(8px);
   }
   .cid-uTtIUn2AHw .navbar-nav .nav-item .nav-link::after {
@@ -1373,7 +1373,7 @@ b {
 }
 .cid-t8Pd7peBUI {
   padding-top: 10rem;
-  padding-bottom: 9rem;
+  padding-bottom: 7rem;
   background-image: url("../../../assets/images/dji-29-2000x1500.webp");
   overflow: hidden;
 }
